@@ -1,0 +1,31 @@
+*
+{
+    margin 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(78, 51, 51);
+
+    padding: 60px;
+}
+
+.container{
+   background-color: blue;
+   width: 500px;
+   margin: auto;
+   text-align: center;
+   padding: 20px;
+
+}
+.companyname{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.para{
+    color: white;
+    font-size: 10px;
+}
