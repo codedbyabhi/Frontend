@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-image: url(../public/images/banner.png.jpg);
+            background-size: cover;
+            height:150vh;
+        }
+        .bg-shade{
+            height: 150vh;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: -10px;
+        }
+        header{
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            padding: 50px 100px 50px 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .brand-name{
+            font-size: 50px;
+            font-weight: bold;
+            color: red;
+            text-shadow: 1px 1px 1px white;
+        }
+        .language{
+            background-color: rgba(28, 28, 28, 0.6);
+            padding:10px;
+            border-radius: 5px;
+            border: 1px solid white;
+        }
+        .btn-signin{
+            background-color: red;
+            padding: 10px;
+            border-radius: 5px;
+            color:white;
+            width: 80px;
+            text-align: center;
+        }
+        .shortcuts{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .article{
+
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .article-title{
+            font-size: 60px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        .article-subtitle{
+            font-size: 25px;
+            padding-bottom: 20px;
+        }
+        .form-register{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .email{
+            border: 1px solid rgb(188,188,188);
+            padding: 10px;
+            width: 300px;
+            text-align: left;
+
+        }
+        .btn-start{
+            background-color: red;
+            color: aliceblue;
+            padding: 10px;
+            width:200px;
+            text-align: center;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-shade">
+        <header>
+            <div>
+                <span class="brand-name">NETFLIX</span>
+            </div>
+            <div>
+                <div class="shortcuts">
+                    <div class="language">
+                        <span class="bi-bi-translate"></span>
+                        <span>Language</span>
+                        <span class="bi bi-caret-down-fill"></span>
+                    </div>
+                    <div class="btn-signin">SignIn</div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <article>
+                <div class="article-title">Entertainment for <br> every moment</div>
+                <div class="article-subtitle">Starts at ₹149. Cancel at any time.</div>
+                <main>
+                    <div class="main-tile">Ready to watch? Enter your email to create or restart your membership.</div>
+                    <div cladd="form-register">
+                        <div class="email">Email address</div>
+                        <div class="btn-start">Get Started <span class="bi bi-chevron-right"></span></div>
+                    </div>
+                </main>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
